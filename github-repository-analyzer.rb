@@ -13,7 +13,7 @@ def find_most_starred_repo(repos)
     name: most_starred_repo['name'],
     description: most_starred_repo['description'],
     stars: most_starred_repo['stargazers_count'],
-    url: most_starred_repo['html_url']
+    url: most_starred_repo['url']
   }
 end
 
